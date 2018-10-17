@@ -49,7 +49,7 @@ Hence, in this project in order to find out the weights W of the input values we
                                               
 Where t is the target values vector and Φ is the design matrix containing radial basis functions Φj(xi)
 Now using this equation, let’s try to reduce the error by varying the Hyper Parameters. Here we are evaluating the performance of the Linear Regression Model based on the following parameter;
-    * Root Mean Square error (RMS): This parameter can be defined as the square root of the differences between the actual output and the expected output, which is wholly divided by the number of outputs.
+* Root Mean Square error (RMS): This parameter can be defined as the square root of the differences between the actual output and the expected output, which is wholly divided by the number of outputs.
 
 #### Number of Basis Functions M:
 Here we are using basis functions to map the nonlinear features of the dataset in a linear manner such that we can consider them at an input to a linear regression model. The method used to vary this parameter is a Grid Search approach wherein we have to manually try different values of the parameter to measure the variation in the output values.
@@ -70,7 +70,7 @@ Considering the example above we can now map the gradient descent algorithm into
 
 One of the most used variations of gradient descent algorithm is the Stochastic Gradient Descent Algorithm; also abbreviated as SGD. The term stochastic means that we compute a part of the problem representing the whole. Hence unlike the Batch Gradient Decent or Gradient Decent algorithm, in SGD we compute the gradient based on a single training sample as the stochastic approximation of the whole true gradient of the problem. 
 Now using the Gradient Descent Algorithm, let’s try to reduce the error by varying the Hyper Parameters. Here we are evaluating the performance of the Linear Regression Model based on the following parameter;
-    * Root Mean Square error (RMS): This parameter can be defined as the square root of the differences between the actual output and the expected output, which is wholly divided by the number of outputs.
+* Root Mean Square error (RMS): This parameter can be defined as the square root of the differences between the actual output and the expected output, which is wholly divided by the number of outputs.
 
 #### Learning Rate 𝛈T
 Learning Rate 𝛈T can be defined as the size of the steps taken by the gradient decent algorithm. With higher learning rate we can reach the goal faster, but there is a higher chance of divergence of the algorithm from the goal. On the other hand, if we define the step value as too small then the number of steps taken will increase and would lead to degradation of performance of the algorithm.
